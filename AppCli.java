@@ -12,6 +12,7 @@ public class AppCli
     {
         
         Client cliente= new Client();
+        // cliente inizia la comunicazione
         cliente.comunica();
     }
 }

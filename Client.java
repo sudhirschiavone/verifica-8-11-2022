@@ -6,6 +6,10 @@ import java.io.IOException;
 import java.net.Socket;
 
 public class Client {
+    
+    public Client() {
+    }
+
     String nomeServer = "localhost"; // indirizzo server locale
     int portaServer = 12121; // porta x servizio data e ora
     Socket miosocket;
@@ -15,7 +19,7 @@ public class Client {
     DataOutputStream outVersoServer; // stream output
     BufferedReader inDalServer; // stream input
 
-
+    // Attivazione e inizio comunicazione del client
     public void comunica() throws IOException {
         
         Comunica C1 = new Comunica();

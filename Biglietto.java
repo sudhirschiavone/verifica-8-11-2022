@@ -25,11 +25,9 @@ public class Biglietto {
     public void setNumerobiglietto(String numerobiglietto) {
         this.numerobiglietto = numerobiglietto;
     }
+    // Stampa biglietto singolo
     public String toString() {
-        return "{" +
-            " ID='" + getIdentificativo() + "'" +
-            ", numeroB='" + getNumerobiglietto() + "'" +
-            "}";
+        return "(" + " ID='" + getIdentificativo() + "'" + ", numeroB='" + getNumerobiglietto() + "'" + ")";
     }
     
 }
